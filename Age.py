@@ -1,18 +1,12 @@
-#program Name: Age in Months and Days
-#To calculate the user's age in months and days
+#Program Description: This program checks the user age and confirms their driving eligiblity
 
 
-#Get user's age
-age_years = int (input( "Enter you age in years:"))
+#Variable to store age of user and recieve input
+age = int(input("Enter your age: "))
 
-#Convert to months and days
-months = age_years * 12
-days = age_years * 365
+#if else statements to evaluate if user can drive
 
-#Display result 
-print("_______________________________")
-print("You are" months," months old.")
-print("That's about", days,"days!")
-print("_______________________________")
-
-
+if(age >= 16):
+    print("Your age is eligible to drive. ")
+else:
+    print("Your age is ineligible to drive. ")
