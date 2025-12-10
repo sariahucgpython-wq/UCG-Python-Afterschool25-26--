@@ -18,19 +18,24 @@ print(i)
 fruits = ["apple", "kiwi", "banana", "pear", "pineapple", "plum"]
 # Write your code below:
  for i in fruit:
-   if len (i) <4:
+   if len (i) < 4:
    print(i)
 
 
 # ADVANCED LEVEL
 # 3. Using a for loop, count how many even and odd numbers exist in the list below.
 numbers = [12, 5, 8, 19, 44, 2, 7, 18, 33, 50]
+even =0
+odd=0
 # Your code should print:
 # "Even: X"
 # "Odd: Y"
 # Write your code below:
-
-
+for i in number
+i % 2 ==0
+    even += 1
+else:
+     odd += 1
 
 # EXPERT LEVEL
 # 4. Nested for-loop challenge:
