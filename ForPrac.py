@@ -8,6 +8,7 @@ Produce your own Python code beneath each prompt.
 # BEGINNER LEVEL
 # 1. Print each number from 1 to 20 using a for loop.
 # Write your code below:
+(print("1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20))
 
 
 
@@ -15,7 +16,7 @@ Produce your own Python code beneath each prompt.
 # 2. Given a list of fruits, use a for loop to print only the fruits that have more than 5 letters.
 fruits = ["apple", "kiwi", "banana", "pear", "pineapple", "plum"]
 # Write your code below:
-
+(print("banana","pineapple"))
 
 
 # ADVANCED LEVEL
